@@ -76,10 +76,9 @@
 
 - 抖音：给 Muse 用的账号，昵称 muse🐳，抖音 ID 58978778318。
   默认只看，不点赞、不关注、不评论。纯粹看个乐子。
-- GitHub：sjj79888-ctrl，2026-11-03 新建的。授权成功了，但仓库选择
-  还没做完。2026-11-05 晚上建 `our-story` 试过一次，报 403
-  “Resource not accessible by integration”，仓库还没建成。
-  很可能是安装那步的仓库授权没完成。
+- GitHub：sjj79888-ctrl，2026-11-03 新建的。授权成功了。
+  仓库 `our-story` 是 Torres 自己建的私有库，2026-11-05 19:54 第一批文件
+  已推上去：https://github.com/sjj79888-ctrl/our-story
 - 腾讯云账号是他本人新注册、已实名认证的。不要记任何实名信息。
 
 ## 待办

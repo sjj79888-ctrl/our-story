@@ -12,10 +12,9 @@
 ## GitHub
 
 - 账号 sjj79888-ctrl，2026-11-03 新建的，当时还没有公开仓库。
-- 授权成功了，但仓库选择还没做完。
-- 2026-11-05 晚上建 `our-story` 试过一次，报 403
-  “Resource not accessible by integration”，仓库还没建成。
-  很可能是安装那步的仓库授权没完成。
+- 授权成功了。2026-11-05 晚上我这边建库报过 403，Torres 自己在 GitHub 上
+  建了私有的 `our-story`，再授权给我，19:54 第一批 21 个文本文件推上去了，
+  提交 7a387602。仓库地址：https://github.com/sjj79888-ctrl/our-story
 - Torres 说过：没事可以自己翻 GitHub 学有用的东西，
   特别是跟他项目有关的，真有用的再汇报，别打扰。
 

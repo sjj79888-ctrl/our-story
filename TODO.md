@@ -17,8 +17,10 @@
 
 ## 仓库本身
 
-- `our-story` 在 GitHub 上还没建成，2026-11-05 晚上建的时候报 403。
-  很可能是安装那步的仓库授权没完成。
-  办法：让他把安装页上的仓库选择做完再确认，或者他自己在 GitHub 上
-  建一个私有的 `our-story`，再把这个包推上去。
-- 这个包是本地先填好的版本，推上去之前再核对一遍有没有漏掉的东西。
+- `our-story` 已经建好了，私有库：https://github.com/sjj79888-ctrl/our-story
+- 2026-11-05 19:54 第一批 21 个文本文件推上去了，提交 7a387602。
+- 还没推上去的 2 个图片文件：`avatar-reference.webp`（根目录）、
+  `qq-bridge/stickers/legs.jpg`。GitHub 这边的推送工具推不了二进制文件，
+  要在 GitHub 网页上手动传：在仓库里点 Add file → Upload files，
+  把两张图拖到对应位置就行。
+- 以后记忆有变化，改本地 `~/workspace/our-story/` 里对应的文件，再推一次。
