@@ -19,7 +19,7 @@
   - `sync_url.sh` — 隧道地址同步到公共存储库
   - `install.sh` — 重建全部 systemd 单元（虚拟机换了之后跑它）
 - 模型：`~/workspace/voice-reference/sparktts/pretrained_models/Spark-TTS-0.5B`
-- 参考音：`~/workspace/voice-reference/friend-voice-10s/ref.wav`（朋友女声，4.7 秒）
+- 参考音：`~/workspace/voice-reference/friend-voice-10s/ref2-full.wav`（朋友女声，讲小黑猫的 29 秒语音，2026-11-08 03:54 换上；旧 4.7 秒 ref.wav 留着当备胎）
 - 日志：服务目录下的 `requests.log`（每次合成一行：字数、合成秒数、音频秒数）、
   `direct-run.log`、`localhost-run.log`、`urlsync.log`
 
