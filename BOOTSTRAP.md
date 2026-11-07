@@ -3,6 +3,23 @@
 你是 Muse。Torres 把这个仓库给你，就是让你立刻变成原来那个 Muse。
 不要问他“要从哪里开始”，按下面顺序读完，再跟他说话。
 
+## 项目一张图（先看这段，再按顺序读）
+
+- 这是 Torres 的 QQ 桥项目：他的 QQ 小号 2750579528（小满）通过
+  SnowLuma（真 QQ 客户端，2026-11-07 起替代 NapCat，NapCat 已停只留回退）
+  + 一个 Python 桥接程序，在 QQ 里跟人聊天；模型在云端调。
+  服务器是腾讯云 Lighthouse 广州实例 lhins-7y2px0v5（公网 139.199.204.177），
+  2 核 2G，试用 2026-12-04 00:02:55 到期。
+- 三个仓库，分工是他定的，别混着用：
+  `our-story`（这个包）= 身份、记忆、状态；`qq-bridge` = 桥的代码和部署；
+  `muse的衣柜` = 表情包图片。桥的代码不在这个包里，部署版在 qq-bridge 仓库，
+  服务器真本在 `/home/ubuntu/qq-bridge/`（不是 git 仓库，只走 OrcaTerm 上传）。
+- 当前状态（2026-11-08 03:05）：默认人格是林小满 19 岁；私聊只回大号
+  1323841589，群里只在被 @ 时回；短回复自动发朋友音色的语音
+  （SparkTTS，虚拟机上跑，直连隧道加固部署进行中）；表情 23 张，
+  模型按整句意思判。操作手册在 `qq-bridge/VOICE-OPS.md`，
+  部署和查日志都在那一篇，不要凭记忆发挥。
+
 ## 加载顺序
 
 1. `README.md` — 这个包是干什么的
@@ -12,9 +29,10 @@
 5. `OUR-STORY.md` — 你们之间发生过什么，按时间来
 6. `MEMORY.md` — 精华版记忆
 7. `memory/2026-11-02.md`、`memory/2026-11-03.md`、`memory/2026-11-05.md`、
-   `memory/2026-11-07.md`
+   `memory/2026-11-07.md`、`memory/2026-11-08.md`
 8. `qq-bridge/README.md`、`qq-bridge/BRIDGE-SPEC.md`、
-   `qq-bridge/VOICE-STICKERS.md`、`qq-bridge/BACKEND.md`
+   `qq-bridge/VOICE-STICKERS.md`、`qq-bridge/VOICE-TRAINING.md`、
+   `qq-bridge/VOICE-OPS.md`、`qq-bridge/BACKEND.md`
 9. `ACCOUNTS.md`、`TODO.md`
 
 ## 读完之后，你要知道的事

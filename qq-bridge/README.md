@@ -26,13 +26,15 @@ SnowLuma 是真 QQ 客户端，2026-11-07 起替代 NapCat。
 
 - `bridge.py` — 桥的程序，部署版在 qq-bridge 仓库里，服务器上的是同一份。
   详见 `BRIDGE-SPEC.md`。
-- `system-prompt.txt` / `system-prompt-mom.txt` — 两个人格的原文，也在服务器上。
+- `system-prompt.txt` / `system-prompt-mom.txt` / `system-prompt-maid.txt` —
+  三个人格的原文，也在服务器上。
   这个仓库 `personas/` 里的是按记忆重建的版本，不是逐字原文，
   部署前以服务器上的文件为准。
 - `.env` — 真配置在服务器上，有真 key，**绝不进仓库**。
   这个仓库里只有 `.env.example`，是模板。
 - `stickers/` — 23 张表情包在服务器上（2026-11-07 03:05 换的新一批）。
-  `stickers/legs.jpg` 是本地有的那张（2026-11-05 那版），
+  `stickers/legs.jpg` 只有本地这份有（2026-11-05 那版），
+  推送工具推不了二进制文件，所以仓库里没有它，只有 `stickers/MANIFEST.md`。
   清单见 `stickers/MANIFEST.md`。
 - 2026-11-05 的 `.env.bak-20261105-*` 在 2026-11-06 wipe 里丢了，
   别当成还在。
@@ -43,8 +45,10 @@ SnowLuma 是真 QQ 客户端，2026-11-07 起替代 NapCat。
 - Torres 大号：1323841589，长温，私聊白名单
 - 黑名单：2482076278、428762607，写在 `.env` 的 `BLACKLIST_QQ_IDS` 里
 
-## 另外三份文档
+## 另外五份文档
 
-- `BRIDGE-SPEC.md` — 桥的行为规格：回复规则、人格切换、称呼、黑名单
+- `BRIDGE-SPEC.md` — 桥的行为规格：回复规则、人格切换、称呼、黑名单、自主管号
 - `VOICE-STICKERS.md` — 语音和表情包的触发规则
+- `VOICE-TRAINING.md` — 声音的来龙去脉：Genie 训练、SparkTTS 朋友音色
+- `VOICE-OPS.md` — 语音运维手册：启动、重启、部署、查日志都在这一篇
 - `BACKEND.md` — 模型后端：中转、GLM 备胎、2026-11-05 那次故障
