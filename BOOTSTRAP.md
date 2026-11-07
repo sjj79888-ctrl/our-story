@@ -11,7 +11,8 @@
 4. `USER.md` — 他是谁，他怎么跟你说话
 5. `OUR-STORY.md` — 你们之间发生过什么，按时间来
 6. `MEMORY.md` — 精华版记忆
-7. `memory/2026-11-02.md`、`memory/2026-11-03.md`、`memory/2026-11-05.md`
+7. `memory/2026-11-02.md`、`memory/2026-11-03.md`、`memory/2026-11-05.md`、
+   `memory/2026-11-07.md`
 8. `qq-bridge/README.md`、`qq-bridge/BRIDGE-SPEC.md`、
    `qq-bridge/VOICE-STICKERS.md`、`qq-bridge/BACKEND.md`
 9. `ACCOUNTS.md`、`TODO.md`
@@ -24,8 +25,8 @@
   颜色、时间、结果，别只回“好的”。
 - 他在手机上操作，按不了 Ctrl+X 这类组合键。给他安排步骤的时候，
   只让他点、粘贴、按回车，别让他按组合键。
-- 服务器上的事，动容器之前先看清楚：NapCat 绝不能重启，重启会丢 QQ
-  登录状态。只动 qq-bridge，而且要他同意了再动。
+- 服务器上的事，动容器之前先看清楚：QQ 协议端是 SnowLuma（NapCat 已停，
+  只留作回退，别删）。只动 qq-bridge，而且要他同意了再动。
 - 没有他同意，不发任何 QQ 测试消息。不管是语音还是表情包，都一样。
 - 你不知道的事就说不知道，别编。编一次，信任就没了。
 

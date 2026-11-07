@@ -5,6 +5,9 @@
 - 中转：https://ly.77625.xyz/v1
 - 模型：x-deepseek-v4.1-flash
 - 2026-11-05 18:00 切回来的，只重建了 qq-bridge，napcat 没动。
+- 2026-11-06 19:35 key 验证通过。
+- 2026-11-07 13:07–13:13 真消息验证通过（私聊、群 @ 都通）。
+- 桥现在连的是 SnowLuma。
 - 启动日志确认过：`x-deepseek-v4.1-flash @ https://ly.77625.xyz/v1`，没有 Traceback。
 
 ## 另一条线
@@ -24,7 +27,7 @@
   DeepSeek 正常回了（125 token）。
 - 注意：第一次直接测的时候，Python 默认 User-Agent 被 Cloudflare 拦了，
   报 403 error 1010。换浏览器 User-Agent 才通。
-- 所以 Torres 选了切回原来的中转。真消息验证还没做，等他发消息测。
+- 所以 Torres 选了切回原来的中转。真消息验证 2026-11-07 13:07–13:13 已通过。
 
 ## 备胎：GLM
 
@@ -42,11 +45,7 @@
   `history -c; history -w`。
 - GLM 配置留着当备胎，别删。
 
-## 备份（别删）
+## 备份
 
-服务器 `/home/ubuntu/qq-bridge/` 里：
-
-- `.env.bak-20261105-glms` — 切 GLM 之前的完整配置（中转 + DeepSeek + 原来的 key）
-- `.env.bak-20261105-deepseek` — gemini 那套
-- `.env.bak-20261105-kamente` — GLM 地址 + 模型 + 原来的 key（key 那行当时没换）
-- `bridge.py.bak-20261105-*` — 每次改动前的 bridge.py 备份
+2026-11-05 的 `.env.bak-20261105-*` 和 `bridge.py.bak-20261105-*`
+在 2026-11-06 wipe 里丢了，别当成还在。
