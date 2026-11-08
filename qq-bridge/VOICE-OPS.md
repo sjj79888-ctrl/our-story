@@ -114,6 +114,9 @@ ssh <同上> ubuntu@139.199.204.177 "ss -tln | grep 18001"
   bash ~/workspace/voice-reference/sparktts/service/install.sh
   ```
   然后按上面测一遍四个单元 + `/health`。
+  实测 2026-11-08 ~11:57 虚拟机重启，四项全停：桥直连被拒、备用隧道 502，
+  回落 edge-tts（音色不对）+ BrokenPipe 报错；13:16 重跑 install.sh 恢复，
+  直连/公网 /health 都通，实测合成 1.46 秒通过。
 
 ## 4. 从虚拟机连服务器（SSH）
 
