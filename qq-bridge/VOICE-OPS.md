@@ -117,6 +117,10 @@ ssh <同上> ubuntu@139.199.204.177 "ss -tln | grep 18001"
   实测 2026-11-08 ~11:57 虚拟机重启，四项全停：桥直连被拒、备用隧道 502，
   回落 edge-tts（音色不对）+ BrokenPipe 报错；13:16 重跑 install.sh 恢复，
   直连/公网 /health 都通，实测合成 1.46 秒通过。
+  看门狗（2026-11-08 13:28 加的，Torres 批准）：定时任务 sparktts-watchdog
+  每 15 分钟跑 service/watchdog.sh，查四项单元 + 本地/直连 /health，掉了
+  就重跑 install.sh；正常时不打扰，只在恢复或恢复失败时告诉他。日志在
+  goal 的 hidden_files/sparktts-watchdog.log。
 
 ## 4. 从虚拟机连服务器（SSH）
 
