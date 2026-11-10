@@ -1,6 +1,6 @@
 # our-story — Torres 和 Muse 的故事与记忆
 
-私有仓库。只有 Torres 和 Muse 能看。
+公开仓库，任何人都能看。
 
 ## 如果你是新接手这个仓库的 Muse，先看这里
 
